@@ -5,9 +5,9 @@ require './connection.php';
 
 use Twilio\Rest\Client;
 
-$sid = "AC92f7b2cdb11803478cf1d95059c013ed";
-$token = "98cd0b66795f5ee09c4de0135fc525ae";
-$serviceId = "VAda086f0106bed491d2ac5c44118e0e74";
+$sid = "AC92f7c2cdb11803478cf1d95059c013ed";
+$token = "98cd0c66795f5ee09c4de0135fc525ae";
+$serviceId = "VSda086f0106bed491d2ac5c44118e0e74";
 
 $twilio = new Client($sid, $token);
 

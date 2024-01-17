@@ -1,0 +1,1013 @@
+[17-Dec-2023 06:38:50 UTC] PHP Parse error:  Unmatched '}' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/apply_with_us.php on line 127
+[17-Dec-2023 12:32:19 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'police_station' in 'field list' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/apply_with_us.php:83
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/apply_with_us.php(83): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/apply_with_us.php on line 83
+[17-Dec-2023 12:36:44 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'smilewellnessfoundation.signup' doesn't exist in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/apply_with_us.php:486
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/apply_with_us.php(486): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/apply_with_us.php on line 486
+[17-Dec-2023 12:38:09 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'parrent_status' in 'field list' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/apply_with_us.php:486
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/apply_with_us.php(486): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/apply_with_us.php on line 486
+[17-Dec-2023 07:10:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'smilewellnessfoundation.signup' doesn't exist in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/user-otp.php:13
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/user-otp.php(13): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/user-otp.php on line 13
+[17-Dec-2023 07:11:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'smilewellnessfoundation.signup' doesn't exist in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/parrent_activate.php:9
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/parrent_activate.php(9): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/parrent_activate.php on line 9
+[17-Dec-2023 07:23:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'application_id' in 'field list' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/parrent_activate.php:9
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/parrent_activate.php(9): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/parrent_activate.php on line 9
+[17-Dec-2023 07:25:08 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[17-Dec-2023 07:25:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[17-Dec-2023 07:25:13 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[17-Dec-2023 07:25:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[17-Dec-2023 07:25:47 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[17-Dec-2023 07:25:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[17-Dec-2023 07:33:16 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/login-otp.php on line 6
+[17-Dec-2023 07:33:46 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/login-otp.php on line 6
+[17-Dec-2023 07:33:49 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/login-otp.php on line 6
+[17-Dec-2023 07:33:49 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/login-otp.php on line 18
+[17-Dec-2023 07:33:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'login_username' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/welcome.php:19
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/welcome.php(19): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/welcome.php on line 19
+[17-Dec-2023 07:35:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'login_username' in 'field list' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php:16
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php(16): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 16
+[17-Dec-2023 08:39:03 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/login-otp.php on line 6
+[17-Dec-2023 08:39:20 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/login-otp.php on line 6
+[17-Dec-2023 08:39:20 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/login-otp.php on line 18
+[17-Dec-2023 08:39:39 UTC] PHP Warning:  Undefined array key 8 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 25
+[17-Dec-2023 08:39:39 UTC] PHP Warning:  Undefined array key 9 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 26
+[17-Dec-2023 08:39:39 UTC] PHP Warning:  Undefined array key 10 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 27
+[17-Dec-2023 08:39:39 UTC] PHP Warning:  Undefined array key 11 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 28
+[17-Dec-2023 08:42:37 UTC] PHP Warning:  Undefined array key 11 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 28
+[17-Dec-2023 08:43:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'address='1320',state='Haryana',city='Gurugram',zip='122002' where email_id='dalm' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php:55
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php(55): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 55
+[17-Dec-2023 10:30:47 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_bank_balance.php on line 16
+[17-Dec-2023 10:30:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'login_username' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_bank_balance.php:19
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_bank_balance.php(19): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_bank_balance.php on line 19
+[17-Dec-2023 14:22:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'smilewellnessfoundation.account_category' doesn't exist in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/apply_with_us.php:790
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/apply_with_us.php(790): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/apply_with_us.php on line 790
+[17-Dec-2023 20:27:32 Asia/Kolkata] PHP Warning:  Undefined variable $full_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/pass1.php on line 250
+[17-Dec-2023 15:00:13 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[17-Dec-2023 15:00:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[17-Dec-2023 15:00:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'login_username' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/new_password.php:18
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/new_password.php(18): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/new_password.php on line 18
+[17-Dec-2023 20:50:48 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '9160 9600 9807 ' for key 'Aadhar_card' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php:92
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php(92): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php on line 92
+[17-Dec-2023 21:07:02 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '1' for key 'parrent_status' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php:80
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php(80): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php on line 80
+[17-Dec-2023 21:09:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'none@gmail.com' for key 'parrent_email_id' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php:80
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php(80): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php on line 80
+[17-Dec-2023 16:24:31 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[17-Dec-2023 16:24:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[17-Dec-2023 22:08:00 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==0' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/login.php:856
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/login.php(856): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/login.php on line 856
+[17-Dec-2023 16:40:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==0' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/login.php:856
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/login.php(856): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/login.php on line 856
+[18-Dec-2023 09:32:51 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[18-Dec-2023 09:32:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[18-Dec-2023 09:36:49 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[18-Dec-2023 09:36:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[18-Dec-2023 13:09:31 UTC] PHP Warning:  Undefined variable $sql_parrent_email_id in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php on line 41
+[18-Dec-2023 13:09:31 UTC] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php:41
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php on line 41
+[18-Dec-2023 13:38:29 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_bank_balance.php on line 16
+[18-Dec-2023 13:38:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'login_username' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_bank_balance.php:19
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_bank_balance.php(19): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_bank_balance.php on line 19
+[18-Dec-2023 13:38:39 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/add_balance.php on line 14
+[18-Dec-2023 13:38:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'smilewellnessfoundation.card_account_details' doesn't exist in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/add_balance.php:16
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/add_balance.php(16): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/add_balance.php on line 16
+[18-Dec-2023 13:38:40 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/add_balance.php on line 14
+[18-Dec-2023 13:38:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'smilewellnessfoundation.card_account_details' doesn't exist in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/add_balance.php:16
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/add_balance.php(16): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/add_balance.php on line 16
+[18-Dec-2023 13:38:45 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/transfer_money.php on line 15
+[18-Dec-2023 13:38:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'smilewellnessfoundation.card_account_details' doesn't exist in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/transfer_money.php:17
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/transfer_money.php(17): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/transfer_money.php on line 17
+[18-Dec-2023 20:22:00 Asia/Kolkata] PHP Warning:  Undefined variable $full_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/pass1.php on line 250
+[18-Dec-2023 15:22:33 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[18-Dec-2023 15:22:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[18-Dec-2023 15:30:45 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[18-Dec-2023 15:30:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[18-Dec-2023 15:33:13 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[18-Dec-2023 15:33:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[18-Dec-2023 15:36:38 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_bank_balance.php on line 16
+[18-Dec-2023 15:36:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'login_username' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_bank_balance.php:19
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_bank_balance.php(19): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_bank_balance.php on line 19
+[19-Dec-2023 07:10:52 UTC] PHP Warning:  Undefined variable $conn in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php on line 1434
+[19-Dec-2023 07:10:52 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php:1434
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php(1434): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php on line 1434
+[19-Dec-2023 07:10:57 UTC] PHP Warning:  Undefined variable $conn in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php on line 1434
+[19-Dec-2023 07:10:57 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php:1434
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php(1434): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php on line 1434
+[19-Dec-2023 07:11:50 UTC] PHP Warning:  Undefined variable $conn in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php on line 1435
+[19-Dec-2023 07:11:50 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php:1435
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php(1435): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php on line 1435
+[19-Dec-2023 07:11:56 UTC] PHP Warning:  Undefined variable $conn in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php on line 1435
+[19-Dec-2023 07:11:56 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php:1435
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php(1435): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/signup.php on line 1435
+[20-Dec-2023 15:28:43 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[20-Dec-2023 15:28:46 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/nav.php on line 108
+[21-Dec-2023 10:28:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where emial_id='dalmiaritwik@gmail.com'' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php:204
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php(204): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 204
+[21-Dec-2023 10:29:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email_id='dalmiaritwik@gmail.com'' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php:204
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php(204): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 204
+[21-Dec-2023 10:32:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where police_station='mg road'' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php:204
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php(204): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 204
+[21-Dec-2023 10:33:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where police_station='sadar_bazaar1@gmail.com'' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php:204
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php(204): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 204
+[21-Dec-2023 10:34:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where police_station='sadar_bazaar1@gmail.com'' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php:205
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php(205): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 205
+[21-Dec-2023 10:35:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'police_station' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php:205
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php(205): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 205
+[21-Dec-2023 10:36:38 UTC] PHP Warning:  Undefined variable $police_email_id in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 203
+[21-Dec-2023 10:36:38 UTC] PHP Warning:  Undefined variable $police_station_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 215
+[21-Dec-2023 10:36:38 UTC] PHP Warning:  Undefined variable $police_station_pincode in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 215
+[21-Dec-2023 10:40:39 UTC] PHP Warning:  Undefined variable $police_email_id in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 203
+[21-Dec-2023 10:40:39 UTC] PHP Warning:  Undefined variable $police_station_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 215
+[21-Dec-2023 10:40:39 UTC] PHP Warning:  Undefined variable $police_station_pincode in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 215
+[21-Dec-2023 11:41:31 UTC] PHP Warning:  Undefined array key "login_username" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 10
+[21-Dec-2023 11:41:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'smilewellnessfoundation.users_nit' doesn't exist in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php:14
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php(14): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 14
+[21-Dec-2023 11:42:17 UTC] PHP Warning:  Undefined variable $row in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 30
+[21-Dec-2023 11:42:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 30
+[21-Dec-2023 11:45:52 UTC] PHP Warning:  Undefined array key "permission" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 37
+[21-Dec-2023 11:45:52 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 45
+[21-Dec-2023 17:15:52 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'police_station' in 'field list' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php:66
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php(66): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 66
+[21-Dec-2023 11:53:34 UTC] PHP Warning:  Undefined array key "permission" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 37
+[21-Dec-2023 11:53:34 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 45
+[21-Dec-2023 12:06:56 UTC] PHP Warning:  Undefined array key "police_station_user" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 44
+[21-Dec-2023 12:16:52 UTC] PHP Warning:  Undefined variable $currentDate in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 221
+[21-Dec-2023 12:17:40 UTC] PHP Warning:  Undefined variable $currentDate in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 221
+[21-Dec-2023 17:48:16 Asia/Kolkata] PHP Warning:  Undefined variable $currentDate in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 221
+[21-Dec-2023 17:48:37 Asia/Kolkata] PHP Warning:  Undefined variable $currentDate in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 221
+[21-Dec-2023 12:28:36 UTC] PHP Warning:  Undefined array key "compliant_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 70
+[21-Dec-2023 12:28:36 UTC] PHP Warning:  Undefined array key "incident_date" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 72
+[21-Dec-2023 12:28:36 UTC] PHP Warning:  Undefined variable $victim_email_idemail_id in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 103
+[21-Dec-2023 12:28:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:287
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(287): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 287
+[21-Dec-2023 12:31:20 UTC] PHP Warning:  Undefined array key "compliant_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 70
+[21-Dec-2023 12:31:20 UTC] PHP Warning:  Undefined array key "incident_date" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 72
+[21-Dec-2023 12:31:20 UTC] PHP Warning:  Undefined variable $victim_email_idemail_id in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 103
+[21-Dec-2023 12:31:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:287
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(287): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 287
+[21-Dec-2023 12:31:47 UTC] PHP Warning:  Undefined array key "compliant_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 70
+[21-Dec-2023 12:31:47 UTC] PHP Warning:  Undefined array key "incident_date" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 72
+[21-Dec-2023 12:31:47 UTC] PHP Warning:  Undefined variable $victim_email_idemail_id in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 103
+[21-Dec-2023 12:31:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:287
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(287): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 287
+[21-Dec-2023 12:32:16 UTC] PHP Warning:  Undefined array key "incident_date" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 72
+[21-Dec-2023 12:32:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:287
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(287): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 287
+[21-Dec-2023 12:35:35 UTC] PHP Warning:  Undefined array key "incident_date" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 72
+[21-Dec-2023 12:35:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:287
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(287): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 287
+[21-Dec-2023 12:36:23 UTC] PHP Warning:  Undefined array key "incident_date" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 72
+[21-Dec-2023 12:36:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:287
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(287): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 287
+[21-Dec-2023 12:38:47 UTC] PHP Warning:  Undefined array key "incident_date" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 72
+[21-Dec-2023 12:38:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:287
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(287): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 287
+[21-Dec-2023 12:39:03 UTC] PHP Warning:  Undefined array key "incident_date" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 72
+[21-Dec-2023 12:39:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:287
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(287): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 287
+[21-Dec-2023 12:51:08 UTC] PHP Warning:  Undefined array key "incident_date" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 69
+[21-Dec-2023 12:51:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:275
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(275): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 275
+[21-Dec-2023 12:51:49 UTC] PHP Warning:  Undefined array key "incident_date" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 69
+[21-Dec-2023 12:51:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:275
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(275): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 275
+[21-Dec-2023 12:52:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:275
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(275): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 275
+[21-Dec-2023 12:54:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:277
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(277): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 277
+[21-Dec-2023 12:54:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:277
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(277): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 277
+[21-Dec-2023 12:55:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:277
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(277): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 277
+[21-Dec-2023 12:55:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:277
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(277): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 277
+[21-Dec-2023 12:55:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:277
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(277): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 277
+[21-Dec-2023 12:58:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:277
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(277): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 277
+[21-Dec-2023 12:58:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:277
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(277): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 277
+[21-Dec-2023 12:58:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:277
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(277): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 277
+[21-Dec-2023 13:00:18 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 65
+[21-Dec-2023 13:02:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'registered_byb' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:277
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(277): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 277
+[21-Dec-2023 18:04:42 UTC] PHP Warning:  Undefined variable $full_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 183
+[21-Dec-2023 18:04:42 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 185
+[21-Dec-2023 18:05:18 UTC] PHP Warning:  Undefined variable $full_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 183
+[21-Dec-2023 18:05:18 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 185
+[21-Dec-2023 18:07:12 UTC] PHP Warning:  Undefined array key "complaint_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 14
+[21-Dec-2023 18:07:12 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 141
+[21-Dec-2023 18:07:12 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 142
+[21-Dec-2023 18:07:12 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 172
+[21-Dec-2023 18:07:12 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 181
+[21-Dec-2023 18:07:12 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 190
+[21-Dec-2023 18:08:09 UTC] PHP Warning:  Undefined array key "complaint_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 14
+[21-Dec-2023 18:08:09 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 141
+[21-Dec-2023 18:08:09 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 142
+[21-Dec-2023 18:08:09 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 172
+[21-Dec-2023 18:08:09 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 181
+[21-Dec-2023 18:08:09 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 190
+[21-Dec-2023 18:12:29 UTC] PHP Parse error:  Unmatched '}' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 70
+[21-Dec-2023 18:12:44 UTC] PHP Parse error:  Unmatched '}' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 70
+[21-Dec-2023 18:13:22 UTC] PHP Warning:  Undefined array key "complaint_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 14
+[21-Dec-2023 18:13:22 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 134
+[21-Dec-2023 18:13:22 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 135
+[21-Dec-2023 18:13:22 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 165
+[21-Dec-2023 18:13:22 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 174
+[21-Dec-2023 18:13:22 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 183
+[21-Dec-2023 18:14:17 UTC] PHP Warning:  Undefined array key "complaint_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 14
+[21-Dec-2023 18:14:17 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 134
+[21-Dec-2023 18:14:17 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 135
+[21-Dec-2023 18:14:17 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 165
+[21-Dec-2023 18:14:17 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 174
+[21-Dec-2023 18:14:17 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 183
+[21-Dec-2023 18:14:56 UTC] PHP Warning:  Undefined array key "complaint_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 14
+[21-Dec-2023 18:14:56 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 134
+[21-Dec-2023 18:14:56 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 135
+[21-Dec-2023 18:14:56 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 165
+[21-Dec-2023 18:14:56 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 174
+[21-Dec-2023 18:14:56 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 183
+[21-Dec-2023 18:17:19 UTC] PHP Warning:  Undefined array key "complaint_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 14
+[21-Dec-2023 18:17:19 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 134
+[21-Dec-2023 18:17:19 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 135
+[21-Dec-2023 18:17:19 UTC] PHP Warning:  Undefined variable $complaint_id1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 156
+[21-Dec-2023 18:17:19 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 165
+[21-Dec-2023 18:17:19 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 174
+[21-Dec-2023 18:17:19 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 183
+[21-Dec-2023 18:17:25 UTC] PHP Warning:  Undefined array key "complaint_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 14
+[21-Dec-2023 18:17:25 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 134
+[21-Dec-2023 18:17:25 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 135
+[21-Dec-2023 18:17:25 UTC] PHP Warning:  Undefined variable $complaint_id1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 156
+[21-Dec-2023 18:17:25 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 165
+[21-Dec-2023 18:17:25 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 174
+[21-Dec-2023 18:17:25 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 183
+[21-Dec-2023 18:17:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1''' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php:25
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php(25): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 25
+[21-Dec-2023 18:19:06 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 134
+[21-Dec-2023 18:19:06 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 135
+[21-Dec-2023 18:19:06 UTC] PHP Warning:  Undefined variable $complaint_id1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 156
+[21-Dec-2023 18:19:06 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 165
+[21-Dec-2023 18:19:06 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 174
+[21-Dec-2023 18:19:06 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 183
+[21-Dec-2023 18:21:11 UTC] PHP Warning:  Undefined variable $complaint_id in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 24
+[21-Dec-2023 18:21:11 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 134
+[21-Dec-2023 18:21:11 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 135
+[21-Dec-2023 18:21:11 UTC] PHP Warning:  Undefined variable $complaint_id1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 156
+[21-Dec-2023 18:21:11 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 165
+[21-Dec-2023 18:21:11 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 174
+[21-Dec-2023 18:21:11 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 183
+[21-Dec-2023 18:22:25 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 134
+[21-Dec-2023 18:22:25 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 135
+[21-Dec-2023 18:22:25 UTC] PHP Warning:  Undefined variable $complaint_id1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 156
+[21-Dec-2023 18:22:25 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 165
+[21-Dec-2023 18:22:25 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 174
+[21-Dec-2023 18:22:25 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 183
+[21-Dec-2023 18:22:29 UTC] PHP Warning:  Undefined variable $full_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 183
+[21-Dec-2023 18:22:29 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 185
+[21-Dec-2023 18:22:36 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 134
+[21-Dec-2023 18:22:36 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 135
+[21-Dec-2023 18:22:36 UTC] PHP Warning:  Undefined variable $complaint_id1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 156
+[21-Dec-2023 18:22:36 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 165
+[21-Dec-2023 18:22:36 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 174
+[21-Dec-2023 18:22:36 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 183
+[21-Dec-2023 18:22:42 UTC] PHP Warning:  Undefined variable $complaint_id1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 156
+[21-Dec-2023 18:23:31 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 134
+[21-Dec-2023 18:23:31 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 135
+[21-Dec-2023 18:23:31 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 165
+[21-Dec-2023 18:23:31 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 174
+[21-Dec-2023 18:23:31 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 183
+[21-Dec-2023 18:23:36 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 134
+[21-Dec-2023 18:23:36 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 135
+[21-Dec-2023 18:23:36 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 165
+[21-Dec-2023 18:23:36 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 174
+[21-Dec-2023 18:23:36 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 183
+[21-Dec-2023 18:24:51 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 134
+[21-Dec-2023 18:24:51 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 135
+[21-Dec-2023 18:24:51 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 165
+[21-Dec-2023 18:24:51 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 174
+[21-Dec-2023 18:24:51 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 183
+[21-Dec-2023 18:25:53 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 134
+[21-Dec-2023 18:25:53 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 135
+[21-Dec-2023 18:25:53 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 165
+[21-Dec-2023 18:25:53 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 174
+[21-Dec-2023 18:25:53 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 183
+[22-Dec-2023 05:37:47 UTC] PHP Warning:  Undefined variable $full_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 183
+[22-Dec-2023 05:37:47 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 185
+[22-Dec-2023 05:41:57 UTC] PHP Warning:  Undefined variable $full_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 183
+[22-Dec-2023 05:41:57 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 185
+[22-Dec-2023 06:22:07 UTC] PHP Warning:  Undefined variable $full_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 183
+[22-Dec-2023 06:22:07 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 185
+[22-Dec-2023 06:22:11 UTC] PHP Warning:  Undefined variable $full_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 183
+[22-Dec-2023 06:22:11 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 185
+[22-Dec-2023 06:33:28 UTC] PHP Warning:  Undefined variable $full_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 183
+[22-Dec-2023 06:33:28 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 185
+[22-Dec-2023 06:37:18 UTC] PHP Warning:  Undefined variable $full_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 183
+[22-Dec-2023 06:37:18 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 185
+[22-Dec-2023 06:53:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==0' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:285
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(285): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 285
+[22-Dec-2023 06:54:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==0' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:285
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(285): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 285
+[22-Dec-2023 06:55:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=='0'' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:285
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(285): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 285
+[22-Dec-2023 06:58:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=='0'' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:285
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(285): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 285
+[22-Dec-2023 07:00:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'feedback_permissio' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php:286
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php(286): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 286
+[22-Dec-2023 07:44:21 UTC] PHP Warning:  Undefined array key "application_request_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 68
+[22-Dec-2023 07:44:21 UTC] PHP Warning:  Undefined array key "garbage_type" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 69
+[22-Dec-2023 07:44:21 UTC] PHP Warning:  Undefined array key "service_date" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 70
+[22-Dec-2023 07:44:21 UTC] PHP Warning:  Undefined array key "weight" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 71
+[22-Dec-2023 07:44:21 UTC] PHP Warning:  Undefined array key "route_name" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 72
+[22-Dec-2023 07:44:21 UTC] PHP Warning:  Undefined array key "application_request_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 178
+[22-Dec-2023 07:44:21 UTC] PHP Warning:  Undefined array key "garbage_type" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 179
+[22-Dec-2023 07:44:21 UTC] PHP Warning:  Undefined array key "service_date" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 180
+[22-Dec-2023 07:44:21 UTC] PHP Warning:  Undefined array key "weight" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 181
+[22-Dec-2023 07:44:21 UTC] PHP Warning:  Undefined array key "route_name" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 182
+[22-Dec-2023 07:44:37 UTC] PHP Warning:  Undefined array key "application_request_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 178
+[22-Dec-2023 07:44:37 UTC] PHP Warning:  Undefined array key "garbage_type" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 179
+[22-Dec-2023 07:44:37 UTC] PHP Warning:  Undefined array key "service_date" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 180
+[22-Dec-2023 07:44:37 UTC] PHP Warning:  Undefined array key "weight" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 181
+[22-Dec-2023 07:44:37 UTC] PHP Warning:  Undefined array key "route_name" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 182
+[22-Dec-2023 07:44:37 UTC] PHP Warning:  Undefined array key "application_request_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 289
+[22-Dec-2023 07:44:37 UTC] PHP Warning:  Undefined array key "garbage_type" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 290
+[22-Dec-2023 07:44:37 UTC] PHP Warning:  Undefined array key "service_date" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 291
+[22-Dec-2023 07:44:37 UTC] PHP Warning:  Undefined array key "weight" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 292
+[22-Dec-2023 07:44:37 UTC] PHP Warning:  Undefined array key "route_name" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 293
+[22-Dec-2023 08:05:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'feedback_permission' in 'field list' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php:59
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php(59): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 59
+[22-Dec-2023 08:17:31 UTC] PHP Warning:  Undefined variable $feed_backpermission in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 375
+[22-Dec-2023 08:17:59 UTC] PHP Warning:  Undefined variable $feed_backpermission in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 375
+[22-Dec-2023 08:18:10 UTC] PHP Warning:  Undefined variable $feed_backpermission in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/Requested_applications_user.php on line 375
+[22-Dec-2023 08:50:51 UTC] PHP Parse error:  Unclosed '{' on line 34 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 390
+[22-Dec-2023 08:50:54 UTC] PHP Parse error:  Unclosed '{' on line 34 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 390
+[22-Dec-2023 08:51:07 UTC] PHP Parse error:  Unclosed '{' on line 34 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 390
+[22-Dec-2023 08:51:54 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 182
+[22-Dec-2023 08:51:54 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 184
+[22-Dec-2023 08:52:06 UTC] PHP Warning:  Undefined array key "registered_by" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_someone_else.php on line 46
+[22-Dec-2023 08:52:38 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 182
+[22-Dec-2023 08:52:38 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 184
+[22-Dec-2023 08:52:40 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 182
+[22-Dec-2023 08:52:40 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 184
+[22-Dec-2023 14:22:51 Asia/Kolkata] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 182
+[22-Dec-2023 14:22:51 Asia/Kolkata] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 184
+[22-Dec-2023 08:53:52 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 182
+[22-Dec-2023 08:53:52 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 184
+[22-Dec-2023 08:53:55 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 182
+[22-Dec-2023 08:53:55 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 184
+[22-Dec-2023 14:24:04 Asia/Kolkata] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 182
+[22-Dec-2023 14:24:04 Asia/Kolkata] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 184
+[22-Dec-2023 08:54:56 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 182
+[22-Dec-2023 08:54:56 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 184
+[22-Dec-2023 08:55:12 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 182
+[22-Dec-2023 08:55:12 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 184
+[22-Dec-2023 14:25:20 Asia/Kolkata] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 182
+[22-Dec-2023 14:25:20 Asia/Kolkata] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 184
+[22-Dec-2023 08:55:23 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 182
+[22-Dec-2023 08:55:23 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 184
+[22-Dec-2023 10:03:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'police_station' in 'where clause' in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/police_station_details.php:65
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/police_station_details.php(65): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/police_station_details.php on line 65
+[22-Dec-2023 10:13:53 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 182
+[22-Dec-2023 10:13:53 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/register_for_us.php on line 184
+[22-Dec-2023 10:44:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM application_request
+    JOIN police_station_list ON application_request.po' at line 2 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php:80
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php(80): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php on line 80
+[22-Dec-2023 10:46:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM application_request
+    JOIN police_station_list ON application_request.po' at line 2 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php:80
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php(80): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php on line 80
+[22-Dec-2023 10:49:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM application_request
+    JOIN police_station_list ON application_request.po' at line 2 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php:79
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php(79): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php on line 79
+[26-Dec-2023 06:49:30 UTC] PHP Warning:  Undefined array key "complaint_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 14
+[26-Dec-2023 06:49:30 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 137
+[26-Dec-2023 06:49:30 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 138
+[26-Dec-2023 06:49:30 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 168
+[26-Dec-2023 06:49:30 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 177
+[26-Dec-2023 06:49:30 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 186
+[26-Dec-2023 06:50:22 UTC] PHP Warning:  Undefined array key "complaint_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 14
+[26-Dec-2023 06:50:22 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 137
+[26-Dec-2023 06:50:22 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 138
+[26-Dec-2023 06:50:22 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 168
+[26-Dec-2023 06:50:22 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 177
+[26-Dec-2023 06:50:22 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 186
+[26-Dec-2023 18:10:51 Asia/Kolkata] PHP Warning:  Undefined variable $full_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/pass1.php on line 250
+[26-Dec-2023 15:40:18 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[26-Dec-2023 15:40:18 UTC] PHP Warning:  Undefined array key "address" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 40
+[26-Dec-2023 15:40:18 UTC] PHP Warning:  Undefined array key "state" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 41
+[26-Dec-2023 15:40:18 UTC] PHP Warning:  Undefined array key "city" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 42
+[26-Dec-2023 15:40:18 UTC] PHP Warning:  Undefined array key "zip" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 43
+[26-Dec-2023 15:41:32 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[26-Dec-2023 15:41:32 UTC] PHP Warning:  Undefined array key "address" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 40
+[26-Dec-2023 15:41:32 UTC] PHP Warning:  Undefined array key "state" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 41
+[26-Dec-2023 15:41:32 UTC] PHP Warning:  Undefined array key "city" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 42
+[26-Dec-2023 15:41:32 UTC] PHP Warning:  Undefined array key "zip" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 43
+[26-Dec-2023 15:59:05 UTC] PHP Warning:  Undefined variable $State in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 291
+[26-Dec-2023 15:59:18 UTC] PHP Warning:  Undefined variable $State in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 291
+[26-Dec-2023 16:00:09 UTC] PHP Warning:  Undefined variable $State in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 291
+[26-Dec-2023 16:00:13 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[26-Dec-2023 16:00:13 UTC] PHP Warning:  Undefined array key "address" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 40
+[26-Dec-2023 16:00:13 UTC] PHP Warning:  Undefined array key "state" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 41
+[26-Dec-2023 16:00:13 UTC] PHP Warning:  Undefined array key "city" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 42
+[26-Dec-2023 16:00:13 UTC] PHP Warning:  Undefined array key "zip" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 43
+[26-Dec-2023 16:02:26 UTC] PHP Warning:  Undefined array key "address" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 40
+[26-Dec-2023 16:02:26 UTC] PHP Warning:  Undefined array key "state" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 41
+[26-Dec-2023 16:02:26 UTC] PHP Warning:  Undefined array key "city" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 42
+[26-Dec-2023 16:02:26 UTC] PHP Warning:  Undefined array key "zip" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 43
+[11-Jan-2024 14:04:43 UTC] PHP Parse error:  syntax error, unexpected variable "$current_transaction_password" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 28
+[11-Jan-2024 14:05:05 UTC] PHP Parse error:  syntax error, unexpected variable "$current_transaction_password" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 28
+[11-Jan-2024 14:05:07 UTC] PHP Parse error:  syntax error, unexpected variable "$current_transaction_password" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 28
+[11-Jan-2024 14:08:03 UTC] PHP Parse error:  syntax error, unexpected variable "$current_transaction_password" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 28
+[11-Jan-2024 14:09:17 UTC] PHP Warning:  Undefined variable $showError1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 135
+[11-Jan-2024 14:09:50 UTC] PHP Warning:  Undefined variable $showError1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 135
+[11-Jan-2024 14:10:53 UTC] PHP Warning:  Undefined variable $showError1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 135
+[11-Jan-2024 14:15:31 UTC] PHP Warning:  Undefined array key "current_password" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 28
+[11-Jan-2024 14:15:31 UTC] PHP Warning:  Undefined variable $showError1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 135
+[11-Jan-2024 14:15:39 UTC] PHP Warning:  Undefined array key "current_password" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 28
+[11-Jan-2024 14:15:39 UTC] PHP Warning:  Undefined variable $showError1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 135
+[11-Jan-2024 14:17:19 UTC] PHP Warning:  Undefined variable $showError1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 135
+[11-Jan-2024 14:17:38 UTC] PHP Warning:  Undefined variable $showError1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 135
+[11-Jan-2024 14:19:14 UTC] PHP Warning:  Undefined variable $showError1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 135
+[11-Jan-2024 14:19:27 UTC] PHP Warning:  Undefined variable $showError1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_password.php on line 135
+[12-Jan-2024 06:35:49 UTC] PHP Warning:  Undefined array key "zip" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 43
+[12-Jan-2024 06:35:54 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[12-Jan-2024 06:35:54 UTC] PHP Warning:  Undefined array key "address" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 40
+[12-Jan-2024 06:35:54 UTC] PHP Warning:  Undefined array key "state" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 41
+[12-Jan-2024 06:35:54 UTC] PHP Warning:  Undefined array key "city" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 42
+[12-Jan-2024 06:37:41 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[12-Jan-2024 06:37:41 UTC] PHP Warning:  Undefined array key "address" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 40
+[12-Jan-2024 06:37:41 UTC] PHP Warning:  Undefined array key "state" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 41
+[12-Jan-2024 06:37:41 UTC] PHP Warning:  Undefined array key "city" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 42
+[12-Jan-2024 06:37:41 UTC] PHP Warning:  Undefined array key "zip" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 43
+[12-Jan-2024 06:44:28 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[12-Jan-2024 06:44:28 UTC] PHP Warning:  Undefined array key "address" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 40
+[12-Jan-2024 06:44:28 UTC] PHP Warning:  Undefined array key "state" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 41
+[12-Jan-2024 06:44:28 UTC] PHP Warning:  Undefined array key "city" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 42
+[12-Jan-2024 06:45:11 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[12-Jan-2024 06:45:11 UTC] PHP Warning:  Undefined array key "address" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 40
+[12-Jan-2024 06:45:11 UTC] PHP Warning:  Undefined array key "state" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 41
+[12-Jan-2024 06:45:11 UTC] PHP Warning:  Undefined array key "city" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 42
+[12-Jan-2024 06:45:11 UTC] PHP Warning:  Undefined array key "zip" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 43
+[12-Jan-2024 06:47:03 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[12-Jan-2024 06:50:37 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[12-Jan-2024 06:56:44 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 52
+[12-Jan-2024 06:58:54 UTC] PHP Parse error:  syntax error, unexpected variable "$gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 54
+[12-Jan-2024 06:59:46 UTC] PHP Parse error:  syntax error, unexpected variable "$gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 52
+[12-Jan-2024 07:00:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php:53
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php(53): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 53
+[12-Jan-2024 07:02:11 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[12-Jan-2024 07:02:11 UTC] PHP Warning:  Undefined array key "address" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 40
+[12-Jan-2024 07:02:11 UTC] PHP Warning:  Undefined array key "state" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 41
+[12-Jan-2024 07:02:11 UTC] PHP Warning:  Undefined array key "city" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 42
+[12-Jan-2024 07:02:11 UTC] PHP Warning:  Undefined array key "zip" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 43
+[12-Jan-2024 07:08:57 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[12-Jan-2024 07:08:57 UTC] PHP Warning:  Undefined array key "address" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 40
+[12-Jan-2024 07:08:57 UTC] PHP Warning:  Undefined array key "state" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 41
+[12-Jan-2024 07:08:57 UTC] PHP Warning:  Undefined array key "city" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 42
+[12-Jan-2024 07:08:57 UTC] PHP Warning:  Undefined array key "zip" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 43
+[12-Jan-2024 07:10:22 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[12-Jan-2024 07:10:22 UTC] PHP Warning:  Undefined array key "address" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 40
+[12-Jan-2024 07:10:22 UTC] PHP Warning:  Undefined array key "state" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 41
+[12-Jan-2024 07:10:22 UTC] PHP Warning:  Undefined array key "city" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 42
+[12-Jan-2024 07:10:22 UTC] PHP Warning:  Undefined array key "zip" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 43
+[12-Jan-2024 14:40:36 UTC] PHP Warning:  include(dbcon.php): Failed to open stream: No such file or directory in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:40:36 UTC] PHP Warning:  include(): Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:40:36 UTC] PHP Warning:  Undefined variable $con in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 14:40:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:111
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(111): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 14:40:49 UTC] PHP Warning:  include(dbcon.php): Failed to open stream: No such file or directory in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:40:49 UTC] PHP Warning:  include(): Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:40:49 UTC] PHP Warning:  move_uploaded_file(./pdf/PPT Pointers.pdf): Failed to open stream: No such file or directory in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 30
+[12-Jan-2024 14:40:49 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpTNpurR&quot; to &quot;./pdf/PPT Pointers.pdf&quot; in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 30
+[12-Jan-2024 14:40:49 UTC] PHP Warning:  Undefined variable $con in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 36
+[12-Jan-2024 14:40:49 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:36
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(36): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 36
+[12-Jan-2024 14:40:52 UTC] PHP Warning:  include(dbcon.php): Failed to open stream: No such file or directory in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:40:52 UTC] PHP Warning:  include(): Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:40:52 UTC] PHP Warning:  Undefined variable $con in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 14:40:52 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:111
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(111): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 14:42:04 UTC] PHP Warning:  include(dbcon.php): Failed to open stream: No such file or directory in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:42:04 UTC] PHP Warning:  include(): Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:42:04 UTC] PHP Warning:  Undefined variable $con in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 14:42:04 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:111
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(111): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 14:42:13 UTC] PHP Warning:  include(dbcon.php): Failed to open stream: No such file or directory in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:42:13 UTC] PHP Warning:  include(): Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:42:13 UTC] PHP Warning:  Undefined variable $con in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 36
+[12-Jan-2024 14:42:13 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:36
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(36): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 36
+[12-Jan-2024 14:42:15 UTC] PHP Warning:  include(dbcon.php): Failed to open stream: No such file or directory in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:42:15 UTC] PHP Warning:  include(): Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:42:15 UTC] PHP Warning:  Undefined variable $con in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 14:42:15 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:111
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(111): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 14:46:28 UTC] PHP Warning:  include(dbcon.php): Failed to open stream: No such file or directory in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:46:28 UTC] PHP Warning:  include(): Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:46:28 UTC] PHP Warning:  Undefined variable $con in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 36
+[12-Jan-2024 14:46:30 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:36
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(36): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 36
+[12-Jan-2024 14:47:40 UTC] PHP Warning:  include(dbcon.php): Failed to open stream: No such file or directory in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:47:40 UTC] PHP Warning:  include(): Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:47:40 UTC] PHP Warning:  Undefined variable $con in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 14:47:40 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:111
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(111): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 14:47:48 UTC] PHP Warning:  include(dbcon.php): Failed to open stream: No such file or directory in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:47:48 UTC] PHP Warning:  include(): Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 1
+[12-Jan-2024 14:47:48 UTC] PHP Warning:  Undefined variable $conn in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 36
+[12-Jan-2024 14:47:48 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:36
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(36): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 36
+[12-Jan-2024 14:48:59 UTC] PHP Warning:  Undefined variable $con in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 14:48:59 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:111
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(111): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 14:49:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'PPT Pointers.pdf')' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:36
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(36): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 36
+[12-Jan-2024 14:50:13 UTC] PHP Warning:  Undefined variable $con in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 14:50:13 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:111
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(111): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 15:46:51 UTC] PHP Warning:  Undefined variable $con in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 15:46:51 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:111
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(111): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 15:47:04 UTC] PHP Warning:  Undefined variable $con in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 15:47:04 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:111
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(111): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 15:48:12 UTC] PHP Warning:  Undefined variable $con in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 15:48:12 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:111
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(111): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 15:49:31 UTC] PHP Warning:  Undefined variable $con in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 15:49:31 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php:111
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php(111): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 111
+[12-Jan-2024 17:07:38 UTC] PHP Warning:  Array to string conversion in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 29
+[12-Jan-2024 17:08:46 UTC] PHP Warning:  Array to string conversion in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/image_upload.php on line 29
+[13-Jan-2024 13:10:54 UTC] PHP Parse error:  syntax error, unexpected token "if" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 45
+[13-Jan-2024 13:12:15 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 181
+[13-Jan-2024 13:12:15 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 186
+[13-Jan-2024 13:12:15 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 188
+[13-Jan-2024 13:12:30 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 13:12:30 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 13:12:30 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 181
+[13-Jan-2024 13:12:30 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 186
+[13-Jan-2024 13:12:30 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 188
+[13-Jan-2024 13:13:01 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 13:13:01 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 13:13:01 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 181
+[13-Jan-2024 13:13:01 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 186
+[13-Jan-2024 13:13:01 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 188
+[13-Jan-2024 13:16:06 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 175
+[13-Jan-2024 13:16:06 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 180
+[13-Jan-2024 13:16:06 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 182
+[13-Jan-2024 13:16:10 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 13:16:10 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 13:16:10 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 175
+[13-Jan-2024 13:16:10 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 180
+[13-Jan-2024 13:16:10 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 182
+[13-Jan-2024 13:16:18 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 175
+[13-Jan-2024 13:16:18 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 180
+[13-Jan-2024 13:16:18 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 182
+[13-Jan-2024 13:16:22 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 175
+[13-Jan-2024 13:16:22 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 180
+[13-Jan-2024 13:16:22 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 182
+[13-Jan-2024 13:16:38 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 13:16:38 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 13:16:38 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 175
+[13-Jan-2024 13:16:38 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 180
+[13-Jan-2024 13:16:38 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 182
+[13-Jan-2024 13:18:20 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 175
+[13-Jan-2024 13:18:20 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 180
+[13-Jan-2024 13:18:20 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 182
+[13-Jan-2024 13:18:21 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 175
+[13-Jan-2024 13:18:21 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 180
+[13-Jan-2024 13:18:21 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 182
+[13-Jan-2024 13:18:34 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 13:18:34 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 13:18:34 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 175
+[13-Jan-2024 13:18:34 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 180
+[13-Jan-2024 13:18:34 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 182
+[13-Jan-2024 13:18:59 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 13:18:59 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 13:18:59 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 175
+[13-Jan-2024 13:18:59 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 180
+[13-Jan-2024 13:18:59 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 182
+[13-Jan-2024 13:50:24 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_uploaded_files.php on line 16
+[13-Jan-2024 13:51:05 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 175
+[13-Jan-2024 13:51:05 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 180
+[13-Jan-2024 13:51:05 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 182
+[13-Jan-2024 13:51:16 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 13:51:16 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 13:51:16 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 175
+[13-Jan-2024 13:51:16 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 180
+[13-Jan-2024 13:51:16 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 182
+[13-Jan-2024 13:51:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '4''' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_uploaded_files.php:19
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_uploaded_files.php(19): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_uploaded_files.php on line 19
+[13-Jan-2024 13:58:20 UTC] PHP Parse error:  syntax error, unexpected variable "$file_upload", expecting ")" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_uploaded_files.php on line 42
+[13-Jan-2024 13:59:15 UTC] PHP Parse error:  syntax error, unexpected variable "$file_upload", expecting ")" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/view_uploaded_files.php on line 42
+[13-Jan-2024 14:33:26 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 77
+[13-Jan-2024 14:33:26 UTC] PHP Warning:  Undefined variable $city in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 124
+[13-Jan-2024 14:33:26 UTC] PHP Warning:  Undefined variable $zip in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 129
+[13-Jan-2024 14:33:50 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 77
+[13-Jan-2024 14:33:50 UTC] PHP Warning:  Undefined variable $city in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 124
+[13-Jan-2024 14:33:50 UTC] PHP Warning:  Undefined variable $zip in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 129
+[13-Jan-2024 14:34:04 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 77
+[13-Jan-2024 14:34:04 UTC] PHP Warning:  Undefined variable $city in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 124
+[13-Jan-2024 14:34:04 UTC] PHP Warning:  Undefined variable $zip in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 129
+[13-Jan-2024 14:36:05 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 77
+[13-Jan-2024 14:36:05 UTC] PHP Warning:  Undefined variable $city in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 124
+[13-Jan-2024 14:36:05 UTC] PHP Warning:  Undefined variable $zip in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 129
+[13-Jan-2024 14:54:37 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 96
+[13-Jan-2024 14:54:49 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 96
+[13-Jan-2024 14:54:54 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 96
+[13-Jan-2024 14:58:10 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 96
+[13-Jan-2024 14:58:18 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 176
+[13-Jan-2024 14:58:18 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 181
+[13-Jan-2024 14:58:18 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 183
+[13-Jan-2024 15:00:01 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 181
+[13-Jan-2024 15:00:01 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 183
+[13-Jan-2024 15:00:32 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " title=", expecting "," or ";" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 431
+[13-Jan-2024 15:00:36 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " title=", expecting "," or ";" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 431
+[13-Jan-2024 15:00:39 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 181
+[13-Jan-2024 15:00:39 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 183
+[13-Jan-2024 15:00:40 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 181
+[13-Jan-2024 15:00:40 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 183
+[13-Jan-2024 15:00:43 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " title=", expecting "," or ";" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 431
+[13-Jan-2024 15:02:13 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 96
+[13-Jan-2024 15:02:23 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 96
+[13-Jan-2024 15:03:08 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 96
+[13-Jan-2024 15:03:09 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 96
+[13-Jan-2024 15:03:16 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 96
+[13-Jan-2024 15:04:49 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 96
+[13-Jan-2024 15:05:08 UTC] PHP Warning:  Undefined array key "address_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address_request.php on line 96
+[13-Jan-2024 15:55:26 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 181
+[13-Jan-2024 15:55:26 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 183
+[13-Jan-2024 15:55:58 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 15:55:58 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 15:55:58 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 181
+[13-Jan-2024 15:55:58 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 183
+[13-Jan-2024 15:56:27 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 181
+[13-Jan-2024 15:56:27 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 183
+[13-Jan-2024 15:56:36 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 15:56:36 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 15:56:36 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 181
+[13-Jan-2024 15:56:36 UTC] PHP Warning:  Undefined variable $Mno1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 183
+[13-Jan-2024 16:05:34 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 181
+[13-Jan-2024 16:05:34 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 183
+[13-Jan-2024 16:05:53 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 16:05:53 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 16:05:53 UTC] PHP Warning:  Undefined variable $file_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 63
+[13-Jan-2024 16:05:53 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 181
+[13-Jan-2024 16:05:53 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 183
+[13-Jan-2024 16:07:21 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 182
+[13-Jan-2024 16:07:21 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 184
+[13-Jan-2024 16:07:27 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 16:07:27 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 16:07:27 UTC] PHP Warning:  Undefined variable $file_name in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 64
+[13-Jan-2024 16:07:27 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 182
+[13-Jan-2024 16:07:27 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 184
+[13-Jan-2024 16:10:35 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 188
+[13-Jan-2024 16:10:35 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 190
+[13-Jan-2024 16:10:36 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 188
+[13-Jan-2024 16:10:36 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 190
+[13-Jan-2024 16:10:47 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 16:10:47 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 16:10:47 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 188
+[13-Jan-2024 16:10:47 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 190
+[13-Jan-2024 16:11:01 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 16:11:01 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 16:11:01 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 188
+[13-Jan-2024 16:11:01 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 190
+[13-Jan-2024 16:12:20 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 188
+[13-Jan-2024 16:12:20 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 190
+[13-Jan-2024 16:12:23 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 16:12:23 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 16:12:23 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 188
+[13-Jan-2024 16:12:23 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 190
+[13-Jan-2024 16:12:38 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 37
+[13-Jan-2024 16:12:38 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 42
+[13-Jan-2024 16:12:38 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 188
+[13-Jan-2024 16:12:38 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 190
+[13-Jan-2024 16:19:21 UTC] PHP Warning:  Undefined array key "email_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 43
+[13-Jan-2024 16:19:21 UTC] PHP Warning:  Undefined array key "police_station" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 48
+[13-Jan-2024 16:19:21 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 199
+[13-Jan-2024 16:19:21 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 201
+[14-Jan-2024 08:17:54 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 199
+[14-Jan-2024 08:17:54 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 201
+[14-Jan-2024 15:19:56 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[14-Jan-2024 15:19:56 UTC] PHP Warning:  Undefined array key "address" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 40
+[14-Jan-2024 15:19:56 UTC] PHP Warning:  Undefined array key "state" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 41
+[14-Jan-2024 15:19:56 UTC] PHP Warning:  Undefined array key "city" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 42
+[14-Jan-2024 15:19:56 UTC] PHP Warning:  Undefined array key "zip" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 43
+[14-Jan-2024 15:26:49 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[14-Jan-2024 15:26:49 UTC] PHP Warning:  Undefined array key "address" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 40
+[14-Jan-2024 15:26:49 UTC] PHP Warning:  Undefined array key "state" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 41
+[14-Jan-2024 15:26:49 UTC] PHP Warning:  Undefined array key "city" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 42
+[14-Jan-2024 15:26:49 UTC] PHP Warning:  Undefined array key "zip" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 43
+[14-Jan-2024 15:27:59 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 133
+[14-Jan-2024 15:28:12 UTC] PHP Warning:  Undefined array key "gender" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 39
+[14-Jan-2024 15:28:12 UTC] PHP Warning:  Undefined array key "address" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 40
+[14-Jan-2024 15:28:12 UTC] PHP Warning:  Undefined array key "state" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 41
+[14-Jan-2024 15:28:12 UTC] PHP Warning:  Undefined array key "city" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 42
+[14-Jan-2024 15:28:12 UTC] PHP Warning:  Undefined array key "zip" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 43
+[14-Jan-2024 15:34:06 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 133
+[15-Jan-2024 09:55:42 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 133
+[17-Jan-2024 05:49:25 UTC] PHP Warning:  Undefined array key "complaint_id" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 14
+[17-Jan-2024 05:49:25 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 146
+[17-Jan-2024 05:49:25 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 147
+[17-Jan-2024 05:49:25 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 177
+[17-Jan-2024 05:49:25 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 186
+[17-Jan-2024 05:49:25 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 195
+[17-Jan-2024 05:50:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_rating='0' where complaint_id='1'' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php:61
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php(61): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 61
+[17-Jan-2024 06:00:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_rating='0' where complaint_id='52'' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php:61
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php(61): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 61
+[17-Jan-2024 06:18:27 UTC] PHP Warning:  Undefined array key "user_rating" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 55
+[17-Jan-2024 06:21:41 UTC] PHP Warning:  Undefined array key "user_rating" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 55
+[17-Jan-2024 06:22:47 UTC] PHP Warning:  Undefined array key "user_rating" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 55
+[17-Jan-2024 06:25:38 UTC] PHP Warning:  Undefined array key "user_rating" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 55
+[17-Jan-2024 06:33:03 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 133
+[17-Jan-2024 06:39:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where complaint_id='49'' at line 1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php:68
+Stack trace:
+#0 /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php(68): mysqli_query()
+#1 {main}
+  thrown in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 68
+[17-Jan-2024 07:02:13 UTC] PHP Warning:  Undefined array key "user_rating" in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 55
+[17-Jan-2024 07:08:22 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 133
+[17-Jan-2024 07:09:37 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 133
+[17-Jan-2024 07:11:08 UTC] PHP Warning:  Undefined variable $i in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews.php on line 132
+[17-Jan-2024 07:11:08 UTC] PHP Warning:  Undefined variable $i in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews.php on line 132
+[17-Jan-2024 07:11:08 UTC] PHP Warning:  Undefined variable $i in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews.php on line 132
+[17-Jan-2024 07:11:08 UTC] PHP Warning:  Undefined variable $i in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews.php on line 133
+[17-Jan-2024 07:26:26 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 133
+[17-Jan-2024 07:30:06 UTC] PHP Warning:  Undefined variable $user_rating in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php on line 139
+[17-Jan-2024 07:30:06 UTC] PHP Warning:  Undefined variable $user_rating in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php on line 139
+[17-Jan-2024 07:30:06 UTC] PHP Warning:  Undefined variable $user_rating in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php on line 139
+[17-Jan-2024 07:30:06 UTC] PHP Warning:  Undefined variable $user_rating in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php on line 139
+[17-Jan-2024 07:30:06 UTC] PHP Warning:  Undefined variable $user_rating in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php on line 139
+[17-Jan-2024 07:30:06 UTC] PHP Warning:  Undefined variable $user_rating in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php on line 139
+[17-Jan-2024 07:30:06 UTC] PHP Warning:  Undefined variable $user_rating in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php on line 139
+[17-Jan-2024 07:30:06 UTC] PHP Warning:  Undefined variable $user_rating in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php on line 139
+[17-Jan-2024 07:30:06 UTC] PHP Warning:  Undefined variable $user_rating in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php on line 139
+[17-Jan-2024 07:30:06 UTC] PHP Warning:  Undefined variable $user_rating in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_reviews_others.php on line 139
+[17-Jan-2024 09:16:37 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 133
+[17-Jan-2024 09:16:40 UTC] PHP Warning:  Undefined variable $gender in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/profile.php on line 133
+[17-Jan-2024 10:39:52 UTC] PHP Warning:  Undefined variable $full_name1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 199
+[17-Jan-2024 10:39:52 UTC] PHP Warning:  Undefined variable $Mno in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/change_address.php on line 201
+[17-Jan-2024 11:26:17 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 138
+[17-Jan-2024 11:26:17 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 139
+[17-Jan-2024 11:26:17 UTC] PHP Warning:  Undefined variable $police_station_user in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 169
+[17-Jan-2024 11:26:17 UTC] PHP Warning:  Undefined variable $police_station1 in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 178
+[17-Jan-2024 11:26:17 UTC] PHP Warning:  Undefined variable $complaint_assigned_to in /home/a3vj3vqrkzzr/public_html/team_tech_wizard/feedback_valuable.php on line 187

@@ -32,6 +32,9 @@ $email_id1=$_SESSION['email_id'];
                                              $police_station=$row['police_station'];
                                              $email_id=$row['email_id'];
                                             }
+                                            
+                                             
+
 
 ?>
 <?php
@@ -74,6 +77,11 @@ $email_id1=$_SESSION['email_id'];
                         <li>
                         <a href='manage_complaint_request.php'><i class='fa fa-fw fa-people-roof'></i>&nbsp;Manage Complaint</a>
                         </li>
+                        
+                        <li>
+                        <a href='moderator_report.php'><i class='fa fa-fw fa-people-roof'></i>&nbsp;Manage feedback</a>
+                        </li>
+                        
                     </ul>
                 </li>
 
@@ -130,7 +138,7 @@ $email_id1=$_SESSION['email_id'];
                 </li>
                 
                   <li>
-                        <a href='https://smilewellnessfoundation.org/team_tech_wizard/admin/feedback_rating.php' target=_blank><i class='fa fa-fw fa-people-roof'></i>&nbsp;Feedback review</a>
+                        <a href='https://smilewellnessfoundation.org/team_tech_wizard/admin/feedback_rating.php?police_station_id=null' target=_blank><i class='fa fa-fw fa-people-roof'></i>&nbsp;Feedback review</a>
                         </li>
 
                 
@@ -219,6 +227,11 @@ $email_id1=$_SESSION['email_id'];
                         <li>
                         <a href='manage_complaint_request.php'><i class='fa fa-fw fa-people-roof'></i>&nbsp;Manage Complaint</a>
                         </li>
+                        
+                        <li>
+                        <a href='moderator_report.php'><i class='fa fa-fw fa-people-roof'></i>&nbsp;Manage feedback</a>
+                        </li>
+                        
                     </ul>
                 </li>
 
@@ -330,12 +343,12 @@ $email_id1=$_SESSION['email_id'];
              
                 
                 <li>
-                    <a href='#pageSubmenu3' data-toggle='collapse' aria-expanded='false' class='dropdown-toggle'><i class='fa fa-fw fa-user'></i>&nbsp;Manage Complaint Request</a>
+                    <a href='#pageSubmenu3' data-toggle='collapse' aria-expanded='false' class='dropdown-toggle'><i class='fa fa-fw fa-user'></i>&nbsp;Manage feedback</a>
                     <ul class='collapse list-unstyled' id='pageSubmenu3'>
                        
                        
                         <li>
-                        <a href='manage_complaint_request.php'><i class='fa fa-fw fa-people-roof'></i>&nbsp;Manage Complaint</a>
+                        <a href='moderator_report.php'><i class='fa fa-fw fa-people-roof'></i>&nbsp;Manage feedback</a>
                         </li>
                     </ul>
                 </li>
@@ -425,9 +438,7 @@ $email_id1=$_SESSION['email_id'];
                     <ul class='collapse list-unstyled' id='pageSubmenu3'>
                        
                        
-                         <li>
-                        <a href='https://smilewellnessfoundation.org/team_tech_wizard/admin/feedback_rating.php' target=_blank><i class='fa fa-fw fa-people-roof'></i>&nbsp;Feedback review ratings</a>
-                        </li>
+                         
                         
                          <li>
                         <a href='https://smilewellnessfoundation.org/team_tech_wizard/admin/manage_feedback.php' target=_blank><i class='fa fa-fw fa-people-roof'></i>&nbsp;Manage Feedback</a>

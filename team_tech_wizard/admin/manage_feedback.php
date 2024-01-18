@@ -14,6 +14,15 @@ $showError=false;
  
  $email_id1=$_SESSION['email_id'];
 
+ $select_display= "select * from admin where email_id='$email_id1'" ;
+ $select_sql1 = mysqli_query($conn,$select_display);
+ while($row1 = mysqli_fetch_array($select_sql1)){
+//  $email_id=$row1[3];
+ $admin_role_type=$row1[2];
+ $police_station1=$row1[5];
+ 
+ }
+
  
  }
  
@@ -87,7 +96,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $complaint_id = $_POST["complaint_id"];
  
  $select_display="SELECT 
-        application_request.complaint_id,
+        DISTINCT application_request.complaint_id,
         application_request.full_name,
         application_request.email_id,
         application_request.incident_date,
@@ -98,15 +107,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         application_request.complaint_assigned_to,
         application_request.feedback,
         application_request.permission,
-        application_request.feedback_permission,
-        admin.email
+        application_request.feedback_permission
     FROM 
         application_request
-    LEFT JOIN 
+    INNER JOIN 
         admin ON application_request.police_station = admin.police_station
     WHERE 
         application_request.permission = 0 
-        AND application_request.feedback_permission = 0 and application_request.complaint_id='$complaint_id'" ;
+        AND application_request.feedback_permission = 0  AND application_request.complaint_id='$complaint_id'" ;
     $sql1 = mysqli_query($conn,$select_display);
                    
 
@@ -246,7 +254,7 @@ else{
          
   $select_display = "
     SELECT 
-        application_request.complaint_id,
+       distinct application_request.complaint_id,
         application_request.full_name,
         application_request.email_id,
         application_request.incident_date,
@@ -257,15 +265,13 @@ else{
         application_request.complaint_assigned_to,
         application_request.feedback,
         application_request.permission,
-        application_request.feedback_permission,application_request.email_sent,
-        admin.email
+        application_request.feedback_permission,admin.police_station
     FROM 
         application_request
-    LEFT JOIN 
+    INNER JOIN 
         admin ON application_request.police_station = admin.police_station
     WHERE 
-        application_request.permission = 0 
-        AND application_request.feedback_permission = 0 AND application_request.email_sent=0";
+        application_request.permission=0 AND application_request.feedback_permission=0 and application_request.email_sent=0 and admin.police_station='$police_station1'";
                    $sql1 = mysqli_query($conn,$select_display);
                    while($row=mysqli_fetch_assoc($sql1)){
 
@@ -281,7 +287,7 @@ else{
                     $feedback=$row['feedback'];
                     $permission=$row['permission'];
                     $feedback_permission=$row['feedback_permission'];
-                   }
+                   
                         echo "
                         <div class='col-lg-4'>
                     
@@ -389,6 +395,7 @@ echo "
 
 
                 }
+}
             
         
                 ?>

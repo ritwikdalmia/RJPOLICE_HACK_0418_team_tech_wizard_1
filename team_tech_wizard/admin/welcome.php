@@ -22,6 +22,7 @@ $showError=false;
  $admin_role_type=$row1[2];
  
  }
+ 
 
  
  }
@@ -132,7 +133,49 @@ $showError=false;
       </div>
       <?php
 }
-else{?>
+elseif($admin_role_type=='moderator'){?>
+    
+       
+<div class="container">
+  <div class="main-body ">
+    <h4 class="d-flex flex-column align-items-center text-center">Welcome to <span style='color: #FFD700;'>Tech Wizard Police Administration Portal</span></h4><br><br>
+
+    <!--list product-->
+    <div class="row">
+
+      
+
+     
+
+
+
+
+
+      <div class='col-lg-4'>
+        <div class='card' style="width:100%; background: rgba( 255, 255, 255, 0.25 );box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 40px );border-radius: 10px;border: 1px solid rgba( 255, 255, 255, 0.18 );">
+          <div class='card-body'>
+            <div class='d-flex flex-column align-items-center text-center'>
+               <img src='images/feedback.png' alt='Admin' class='rounded-circle p-1 border border-5 border-primary' width='110'>
+              <div class='mt-3'>
+                <h5 class="card-title">report Feedback</h5>
+                <div>
+                  
+                </div>
+                <a class='btn btn-primary' href='moderator_report.php'>Manage feedback</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+   <?php 
+}
+
+else{
+
+
+?>
     
 <div class="container">
   <div class="main-body ">
@@ -161,6 +204,23 @@ else{?>
                   
                 </div>
                 <a class='btn btn-primary' href='manage_feedback.php'>Manage feedback</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='col-lg-4'>
+        <div class='card' style="width:100%; background: rgba( 255, 255, 255, 0.25 );box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 40px );border-radius: 10px;border: 1px solid rgba( 255, 255, 255, 0.18 );">
+          <div class='card-body'>
+            <div class='d-flex flex-column align-items-center text-center'>
+               <img src='images/feedback.png' alt='Admin' class='rounded-circle p-1 border border-5 border-primary' width='110'>
+              <div class='mt-3'>
+                <h5 class="card-title">See Ratings</h5>
+                <div>
+                  
+                </div>
+                <a class='btn btn-primary' href='see_rating.php'>See feedback</a>
               </div>
             </div>
           </div>

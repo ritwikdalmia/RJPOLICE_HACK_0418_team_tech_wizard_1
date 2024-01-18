@@ -1,3 +1,35 @@
+<?php
+ session_start();
+
+$showAlert=false;
+$showError=false;
+
+ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
+     header("location:login.php");
+     exit;
+ }
+ else{
+    
+ include "dbconnect.php";
+  $email_id1=$_SESSION['email_id'];
+
+ 
+ $select_display= "select * from admin inner join police_station_list on admin.police_station=police_station_list.police_email_id where admin.email_id='$email_id1'" ;
+    $select_sql1 = mysqli_query($conn,$select_display);
+    while($row1 = mysqli_fetch_array($select_sql1)){
+   $police_station_id1=$row1['$police_station_id'];
+    
+    }
+ 
+$police_station_id = $police_station_id1 ?? $_GET['police_station_id'] ?? null;
+
+
+
+ 
+ }
+ 
+
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -117,10 +149,11 @@ $(document).ready(function(){
 
     function load_rating_data()
     {
-        $.ajax({
+  var police_station_id = <?php echo $police_station_id; ?>;
+$.ajax({
             url:"submit_rating.php",
             method:"POST",
-            data:{action:'load_data'},
+            data:{action:'load_data',police_station_id: police_station_id },
             dataType:"JSON",
             success:function(data)
             {

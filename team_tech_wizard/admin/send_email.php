@@ -11,7 +11,7 @@ else{
     include "dbconnect.php";
  
     $email_id1=$_SESSION['email_id'];
-	$complaint_id=$_GET['complaint_id'];
+	$complaint_id1=$_GET['complaint_id'];
 
    
     $select_display= "select * from admin where email_id='$email_id1'" ;
@@ -22,7 +22,7 @@ else{
     
     }
 
-    $select_display1= "select * from application_request where complaint_id='$complaint_id'" ;
+    $select_display1= "select * from application_request where complaint_id='$complaint_id1'" ;
     $select_sql2 = mysqli_query($conn,$select_display1);
     while($row1 = mysqli_fetch_assoc($select_sql2)){
     $complaint_assigned_to=$row1['complaint_assigned_to'];
@@ -287,7 +287,7 @@ $subject = "Process update complaint Id:-  $complaint_id";
 		
 												<div style='line-height: 24px'>
 		
-Your complaint has been completed by $complaint_assigned_to for $complaint_id. please provide valuable Feedback </div>
+Your complaint has been completed by $complaint_assigned_to for $complaint_id1. please provide valuable Feedback </div>
 											</td>
 										</tr>
 									</table>
@@ -408,7 +408,7 @@ Your complaint has been completed by $complaint_assigned_to for $complaint_id. p
 		  //echo "Your Mail is sent successfully.";
 		  
 		
-		     $updateQuery = "UPDATE application_request SET email_sent = 1 WHERE email_id = '$email_id_user'";
+		     $updateQuery = "UPDATE application_request SET email_sent = 1 WHERE complaint_id = '$complaint_id1'";
     
     // Assuming you have a database connection object called $conn
     if (mysqli_query($conn, $updateQuery)) {
@@ -432,7 +432,7 @@ Your complaint has been completed by $complaint_assigned_to for $complaint_id. p
 }
 
 
-   
+}
 
 	  
 	 

@@ -134,7 +134,12 @@ echo "
                                         <th>police station email id :</th> 
                                         <td>$police_email_id</td>
                                     </tr>
-                                   
+                                    <tr>
+                                    <th>Ratings :</th>
+                                    
+                                            <td><a class='btn btn-warning' href='feedback_rating.php?police_station_id=$police_station_id'>rating</a></td>
+
+                                   </tr>
 
                                    
 
@@ -211,6 +216,13 @@ else{
                                         <th>police station email id :</th> 
                                         <td>$police_email_id</td>
                                     </tr>
+                                    
+                                   <tr>
+                                    <th>Ratings :</th>
+                                    
+                                            <td><a class='btn btn-warning' href='feedback_rating.php?police_station_id=$police_station_id'>rating</a></td>
+
+                                   </tr>
                                   
                          
 
@@ -287,7 +299,12 @@ echo "
                                         <th>police station email id :</th> 
                                         <td>$police_email_id</td>
                                     </tr>
+                                    <tr>
+                                    <th>Ratings :</th>
                                     
+                                            <td><a class='btn btn-warning' href='feedback_rating.php?police_station_id=$police_station_id'>rating</a></td>
+
+                                   </tr>
 
                                    
 
@@ -364,7 +381,13 @@ else{
                                         <th>police station email id :</th> 
                                         <td>$police_email_id</td>
                                     </tr>
-                                  
+                                    
+                                   <tr>
+                                    <th>Ratings :</th>
+                                    
+                                            <td><a class='btn btn-warning' href='feedback_rating.php?police_station_id=$police_station_id'>rating</a></td>
+
+                                   </tr>
                          
 
                                

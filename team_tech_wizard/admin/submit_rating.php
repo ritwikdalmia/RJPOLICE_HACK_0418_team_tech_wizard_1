@@ -1,11 +1,13 @@
 <?php
+session_start();
 
-//submit_rating.php
 
 $connect = new PDO("mysql:host=localhost;dbname=smilewellnessfoundation", "smilesnheal", "smilewellnessfoundation");
 
 if(isset($_POST["rating_data"]))
 {
+        $police_station_id = $_POST['police_station_id'];
+
 
 	$data = array(
 	
@@ -18,6 +20,7 @@ if(isset($_POST["rating_data"]))
 }
 if(isset($_POST["action"]))
 {
+    $police_station_id = $_POST['police_station_id'];
 	$average_rating = 0;
 	$total_review = 0;
 	$five_star_review = 0;
@@ -29,9 +32,13 @@ if(isset($_POST["action"]))
 	$review_content = array();
 
 	$query = "
-	SELECT * FROM application_request where feedback_permission=1
-	ORDER BY complaint_id  DESC
-	";
+SELECT *
+FROM application_request
+INNER JOIN police_station_list ON application_request.police_station = police_station_list.police_email_id
+WHERE application_request.feedback_permission = 1
+  AND police_station_list.police_station_id IS NOT NULL  -- Ensure police_station_id is not empty
+  AND (police_station_list.police_station_id = '$police_station_id' OR '$police_station_id' = '')  -- Include cases where police_station_id is not provided
+ORDER BY application_request.complaint_id DESC";
 
 	$result = $connect->query($query, PDO::FETCH_ASSOC);
 

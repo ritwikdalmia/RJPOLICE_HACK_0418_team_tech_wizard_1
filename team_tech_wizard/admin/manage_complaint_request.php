@@ -246,7 +246,7 @@ if($permission=='2'){
 }}
 
 else{
-        echo "<b> No pending cases today</b>";
+        echo "<b><div> No pending cases today</b></div>";
         
           
 
@@ -298,7 +298,7 @@ echo "</nav>";
         <!-- okie -->
 
 
-
+<br>
         
 			<div class="row">
                 
@@ -420,7 +420,7 @@ if($permission=='0'){
 }
 }
 else{
-    echo "<b> No ongoing cases today</b>";
+    echo "<div><b> No ongoing cases today</b></div>";
     
       
 
@@ -580,7 +580,7 @@ if($num>0){
 }
 }
 else{
-    echo "<b> No completed cases today</b>";
+    echo "<div><b> No completed cases today</b></div>";
     
       
 
@@ -726,7 +726,7 @@ echo "</tbody>
            </table>";
 }
 else{
-    echo "<b> No pending cases today</b>";
+    echo "<div><b> No pending cases today</b></div>";
 }
            
             
@@ -779,7 +779,7 @@ echo "</nav>";
         <!-- okie -->
 
 
-
+<br>
         
 			<div class="row">
                 
@@ -873,7 +873,7 @@ echo "</tbody>
 </table>";
 }
 else{
-echo "<b> No Ongoing cases today</b>";
+echo "<div><b> No Ongoing cases today</b><div>";
 }
                           
 
@@ -1013,7 +1013,7 @@ echo "</tbody>
 </table>";
 }
 else{
-echo "<b> No resolved cases today</b>";
+echo "<div><b> No resolved cases today</b></div>";
 }
                             
 
@@ -1182,7 +1182,7 @@ if($permission=='2'){
 }}
 
 else{
-        echo "<b> No pending cases today</b>";
+        echo "<div><b> No pending cases today</b></div>";
         
           
 
@@ -1235,7 +1235,7 @@ echo "</nav>";
         <!-- okie -->
 
 
-
+<br>
         
 			<div class="row">
                 
@@ -1357,7 +1357,7 @@ if($permission=='0'){
 }
 }
 else{
-    echo "<b> No ongoing cases today</b>";
+    echo "<div><b> No ongoing cases today</b></div>";
     
       
 
@@ -1517,7 +1517,7 @@ if($num>0){
 }
 }
 else{
-    echo "<b> No completed cases today</b>";
+    echo "<div><b> No completed cases today</b></div>";
     
       
 
@@ -1664,7 +1664,7 @@ echo "</tbody>
            </table>";
 }
 else{
-    echo "<b> No pending cases today</b>";
+    echo "<div><b> No pending cases today</b></div>";
 }
            
             
@@ -1683,7 +1683,7 @@ if ($totalPages > 1) {
 
 // Display pagination links
 
-echo "<nav aria-label='...'>";
+echo "<br><nav aria-label='...'>";
 echo "<ul class='pagination'>";
 
 // Previous Button
@@ -1718,9 +1718,9 @@ echo "</nav>";
         <!-- okie -->
 
 
-
+<br>
         
-			<div class="row">
+			<div class="row"><br>
                 
                 <!--card form-->
                 
@@ -1812,7 +1812,7 @@ echo "</tbody>
 </table>";
 }
 else{
-echo "<b> No Ongoing cases today</b>";
+echo "<div><b> No Ongoing cases today</b><div>";
 }
                           
 
@@ -1953,7 +1953,7 @@ echo "</tbody>
 </table>";
 }
 else{
-echo "<b> No resolved cases today</b>";
+echo "<b> <div>No resolved cases today</b></div>";
 }
                             
 
@@ -2051,10 +2051,12 @@ text-align: left;
     // Check if user has a preferred view stored
     var preferredView = localStorage.getItem('preferredView');
     if (preferredView === 'table') {
-              showTableView();
+            //   showTableView();
+            showCardView();
  
     } else {
- showCardView();
+//  showCardView();
+ showTableView();
     }
 
     function toggleView() {

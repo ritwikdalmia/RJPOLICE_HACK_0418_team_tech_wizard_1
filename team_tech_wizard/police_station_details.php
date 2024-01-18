@@ -65,7 +65,7 @@ $showError=false;
                    $sql1 = mysqli_query($conn,$select_display);
                    while($row=mysqli_fetch_assoc($sql1)){
 
-                   
+                     $police_station_id =$row['police_station_id'];
                     $police_station_name =$row['police_station_name'];
                     $police_station_address=$row['police_station_address'];    
                     $police_station_pincode=$row['police_station_pincode'];  
@@ -134,6 +134,13 @@ $showError=false;
                                     <th>official email id :</th> 
                                     <td>$police_email_id</td>
                                 </tr>
+                                
+                                 <tr>
+                                    <th>Ratings :</th>
+                                    
+                                            <td><a class='btn btn-warning' href='feedback_rating.php?police_station_id=$police_station_id'>See rating</a></td>
+
+                                   </tr>
                          
 
                                
